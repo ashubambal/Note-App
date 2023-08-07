@@ -8,7 +8,8 @@ Dashboard of Note-App:
 ![Note-App](https://github.com/ashubambal/Note-App/assets/92073828/5543408f-2d28-4a3b-86bd-dc0cfb5d5989)
 
 Step 1 : Clon this repo on your local machin.
-	https://github.com/ashubambal/Note-App.git
+
+	git clone https://github.com/ashubambal/Note-App.git
 
 Step 2 : Then use below command to run container
 	docker-compose up
