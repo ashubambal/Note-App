@@ -11,9 +11,10 @@ Step 1 : Clone this repo on your local machin or on AWS EC2 instance.
 
 	git clone https://github.com/ashubambal/Note-App.git
 
-Step 2 : Then use below command to run container
+Step 2 : Then use below command to run container.
 
-	docker-compose up
+	sudo apt install docker-compose
+ 	docker-compose up
 
 Step 3 : Now container is ready to use so issue below command and go inside the container.
 	To check running container -> $ docker ps
