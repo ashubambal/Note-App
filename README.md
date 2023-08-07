@@ -27,11 +27,12 @@ Step 4 : Now container is ready to use so issue below command and go inside the 
   	docker ps
 	docker exec -it <container_id> bash
  	
-  Login to the MySQL database -> 
-  	bash-4.2# mysql -u root -p
-	Enter password: your_password
-	Issue below command once you logon successfull.
+Step 5 : Login to the MySQL database.
 
+  	mysql -u root -p
+	Enter password: your_password
+	
+Step 6 : Issue below command once you logon successfully.
  
   	USE your_database;
 	CREATE TABLE messages (
@@ -39,4 +40,4 @@ Step 4 : Now container is ready to use so issue below command and go inside the 
    			message TEXT
 		);
 
-Step 4 : exit
+Step 7 : exit
