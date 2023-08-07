@@ -19,7 +19,8 @@ Step 3 : Now container is ready to use so issue below command and go inside the 
 	Login to the MySQL database -> mysql -u root -p
 		Enter the password - your_password
 	Issue below command once you logon successfull.
-		> USE your_database;
+		
+  		USE your_database;
 		CREATE TABLE messages (
 	    		id INT AUTO_INCREMENT PRIMARY KEY,
    			message TEXT
