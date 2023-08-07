@@ -11,12 +11,16 @@ Step 1 : Clone this repo on your local machin or on AWS EC2 instance.
 
 	git clone https://github.com/ashubambal/Note-App.git
 
-Step 2 : Then use below command to run container.
+Step 2 : Use "docker_installation_script.sh" script to install Docker on your machine.
+
+	./docker_installation_script.sh
+
+Step 3 : Then use below command to run container.
 
 	sudo apt install docker-compose
  	docker-compose up
 
-Step 3 : Now container is ready to use so issue below command and go inside the container.
+Step 4 : Now container is ready to use so issue below command and go inside the container.
 	To check running container -> $ docker ps
 	To go inside the container -> $ docker exec -it <container_id> bash
  	Login to the MySQL database -> 
