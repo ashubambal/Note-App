@@ -20,7 +20,8 @@ Step 3 : Now container is ready to use so issue below command and go inside the 
   	bash-4.2# mysql -u root -p
 	Enter password: your_password
 	Issue below command once you logon successfull.
-		
+
+ 
   	USE your_database;
 	CREATE TABLE messages (
 	    		id INT AUTO_INCREMENT PRIMARY KEY,
