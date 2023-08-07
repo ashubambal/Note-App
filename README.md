@@ -18,7 +18,7 @@ Step 2 : Use "docker_installation_script.sh" script to install Docker on your ma
 Step 3 : Then use below command to run container.
 
 	sudo apt install docker-compose -y
- 	docker-compose up
+ 	sudo docker-compose up
 
 Step 4 : Now container is ready to use so issue below command and go inside the container.
 	To check running container -> $ docker ps
