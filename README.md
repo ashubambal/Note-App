@@ -13,13 +13,13 @@ Step 1 : Clon this repo on your local machin.
 Step 2 : Then use below command to run container
 	docker-compose up
 
-Step 3 : Now container is ready issue below command and go inside the container.
+Step 3 : Now container is ready to use so issue below command and go inside the container.
 	To check running container -> docker ps
 	To go inside the container -> docker exec -it <container_id> bash
 	Login to the MySQL database -> mysql -u root -p
 		Enter the password - your_password
 	Issue below command once you logon successfull.
-		USE your_database;
+		> USE your_database;
 		CREATE TABLE messages (
 	    		id INT AUTO_INCREMENT PRIMARY KEY,
    			message TEXT
