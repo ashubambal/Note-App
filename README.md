@@ -15,15 +15,18 @@ Step 2 : Use "docker_installation_script.sh" script to install Docker on your ma
 
 	./docker_installation_script.sh
 
-Step 3 : Then use below command to run container.
+Step 3 : Install docker-compose and then issue docker-compose command to create the container.
 
 	sudo apt install docker-compose -y
- 	sudo docker-compose up
+ 	sudo docker-compose up -d
 
 Step 4 : Now container is ready to use so issue below command and go inside the container.
-	To check running container -> $ docker ps
-	To go inside the container -> $ docker exec -it <container_id> bash
- 	Login to the MySQL database -> 
+	 To check running container & then go inside the container-> 
+  
+  	docker ps
+	docker exec -it <container_id> bash
+ 	
+  Login to the MySQL database -> 
   	bash-4.2# mysql -u root -p
 	Enter password: your_password
 	Issue below command once you logon successfull.
