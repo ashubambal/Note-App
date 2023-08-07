@@ -34,10 +34,11 @@ Step 5 : Login to the MySQL database.
 	
 Step 6 : Issue below command once you logon successfully.
  
-  	USE your_database;
+	USE your_database;
 	CREATE TABLE messages (
-	    		id INT AUTO_INCREMENT PRIMARY KEY,
-   			message TEXT
-		);
+	    id INT AUTO_INCREMENT PRIMARY KEY,
+	    message TEXT
+	);
+
 
 Step 7 : exit
