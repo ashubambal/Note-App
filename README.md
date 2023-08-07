@@ -11,9 +11,10 @@ Step 1 : Clone this repo on your local machin or on AWS EC2 instance.
 
 	git clone https://github.com/ashubambal/Note-App.git
 
-Step 2 : Use "docker_installation_script.sh" script to install Docker on your machine.
+Step 2 : Use "docker_installation_script.sh" script to install Docker on your machine and the rebbot the system.
 
 	./docker_installation_script.sh
+ 	sudo reboot
 
 Step 3 : Install docker-compose and then issue docker-compose command to create the container.
 
