@@ -40,4 +40,4 @@ Step 6 : Issue the below command once you logon successfully.
 	    message TEXT
 	);
 
-Step 7 : exit
+Step 7 : Exit
